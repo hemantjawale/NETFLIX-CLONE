@@ -1,0 +1,10 @@
+main{
+    height: 80vh;
+    background-image: url(images/bg.jpg);
+}
+main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.4;
+    background-color: #000;
+}
