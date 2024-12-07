@@ -1,10 +1,31 @@
-main{
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
     height: 80vh;
     background-image: url(images/bg.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
 }
-main .box{
+.main .box{
     height: 80vh;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.44;
     background-color: #000;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    margin: auto;
+    max-width: 80vw;
+    justify-content: space-between; 
+    align-items: center;
+    height: 60px;
+}
+nav img{
+    width: 80px;
 }
