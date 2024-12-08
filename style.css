@@ -156,8 +156,22 @@ nav button{
     border: 1px solid #fff;
     border-radius: 45px;
     width: 70px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     justify-content: flex-end;
     align-content: flex-end;
     height: auto;
+}
+.coursel{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.coursel img{
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.coursel img:hover{
+    transform: scale(1.1);
 }
