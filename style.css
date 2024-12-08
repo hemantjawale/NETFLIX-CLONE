@@ -45,8 +45,19 @@ nav img{
     z-index: 1;
 }
 nav button{
+    border-radius: 45px;
+    padding: 5px 15px;
     position: relative;
     z-index: 1;
+    border: none;
+}
+.flex :nth-child(1){
+    background-color: #000;
+    color: #fff;
+    border: 0.3px solid #fff;
+}
+.flex :nth-child(2){
+ cursor: pointer;
 }
 .hero{
     font-family: "Martel Sans", serif;
@@ -74,4 +85,44 @@ nav button{
 }
 .hero :nth-child(4){
     font-size: 20px;
+}
+.notify{
+    justify-content: space-between;
+}
+.ready{
+    margin-top: 50px;
+    display: flex;
+    font-family: "Martel Sans", serif;
+    color: #ffffffba;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.input input{
+    margin: 10px;
+    background-color: #000000;
+    border: 0.2px solid #966e6e;
+    border-radius:45px;
+    padding:1.5rem 1rem 0.5rem;
+}
+.input button{
+    margin: 10px;
+    border-radius: 45px;
+    border: none;
+    color: #fff;
+    padding:1.5rem 1rem 0.5rem;
+}
+button{
+    background-color: #ff0000;
+    
+}
+.input input[type="text"]{
+    color: #fff;
 }
