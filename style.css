@@ -15,6 +15,8 @@ body{
     height: 80vh;
     background-image: url(images/bg.jpg);
     position: relative;
+    display: block;
+    box-sizing: border-box;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px,100vw);
@@ -147,7 +149,7 @@ nav button{
     color: #d1c8c8;
     font-size: 2rem;
     font-weight: bold;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .genre-btn button{
     cursor: pointer;
@@ -168,7 +170,7 @@ nav button{
 }
 
 .coursel img{
-    width: 150px;
+    width: 140px;
     border-radius: 20px;
     cursor: pointer;
     transition: ease-in-out 0.27s;
@@ -177,6 +179,16 @@ nav button{
    transform: scale(1.062);
 }
 .box{
+    margin: 10px;
     position: relative;
     color: #fff;
+}
+.text-overlay{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    font-size: 70px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 1000;
 }
