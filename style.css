@@ -204,34 +204,113 @@ nav button{
 .mrj{
     color: #fff;
     display: flex;
-    
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 .personal{
-    border: 1px solid ;
     margin-top: 10px;
-    border-radius: 5px;
-    background-color: #482222;
-    padding-bottom: 100px;
+    border-radius: 20px;
+    background-color: #282828;
+    padding-bottom: 90 px;
+    width: 280px;
+    padding-top: 15px;
+    padding-left: 17px;
 }
 .plans{
-    border: 1px solid ;
     margin-top: 10px;
-    border-radius: 5px;
-    background-color: #482222;
-    padding-bottom: 100px;
-
+    border-radius: 20px;
+    background-color: #282828;
+    padding-bottom: 90 px;
+    width: 280px;
+    padding-top: 15px;
+    padding-left: 17px;
+    padding-right: 5px;
+    
+    
 }
 .kids{
-    border: 1px solid ;
     margin-top: 10px;
-    border-radius: 5px;
-    background-color: #482222;
-    padding-bottom: 100px;
+    border-radius: 20px;
+    background-color: #282828;
+    padding-bottom: 90 px;
+    width: 280px;
+    padding-top: 15px;
+    
+    padding-left: 17px;
 }
 .tv{
-    border: 1px solid ;
     margin-top: 10px;
-    border-radius: 5px;
-    background-color: #482222;
-    padding-bottom: 100px;
+    border-radius: 20px;
+    background-color: #282828;
+    padding-bottom: 70px;
+    width: 280px;
+    padding-left: 17px;
+    padding-top: 15px;
+
 }
+.fq{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 750;
+}
+.fqs{
+    font-size: 20px;
+    font-weight: 100;
+  
+}
+.fqs :nth-child(1){
+    background-color: #282828;
+    margin-top: 15px;
+    padding: 25px 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 7px;
+  
+}
+.fqs :nth-child(2){
+    background-color: #282828;
+    padding: 25px 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 7px;
+  
+
+}
+.fqs :nth-child(3){
+    background-color: #282828;
+    padding: 25px 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 7px;
+  
+}
+.fqs :nth-child(4){
+    background-color: #282828;
+    padding: 25px 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 7px;
+  
+}
+.fqs :nth-child(5){
+    
+    background-color: #282828;
+    padding: 25px 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 7px;
+  
+}
+.fqs :nth-child(6){
+    background-color: #282828;
+    padding: 25px 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  
+}
+.fqs img{
+    align-items: flex-end;
+}
+   
